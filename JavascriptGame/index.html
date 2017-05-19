@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Maths Game</title>
+<link href="styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="container">
+
+<div id="gameboard">
+
+<div id="score">
+Score : <span id="scorevalue">0</span>
+</div><!-- end of score button-->
+<div id="correct">
+Correct
+</div>
+
+<div id="tryagain">
+Try Again
+</div>
+
+<div id="question">
+</div><!--end of question-->
+
+<div id="instruction">
+Click on the correct answer
+</div><!--end of instruction-->
+
+<div id="choices">
+<div id="box1" class="box" onclick="boxclick(this)"></div>
+<div id="box2" class="box" onclick="boxclick(this)"></div>
+<div id="box3" class="box" onclick="boxclick(this)"></div>
+<div id="box4" class="box" onclick="boxclick(this)"></div>
+</div><!--end of choices-->
+
+<div id="start">
+<div id="startreset">
+<span id="startresetvalue">Start Game</span>
+</div>
+</div><!--end of div start-->
+
+<div id="timeremaining">
+Time Remaining : <span id="timeremainingvalue">30</span> sec
+</div>
+
+
+<div id="gameover">
+
+</div><!--end of gameover-->
+</div><!--end of gameboard-->
+</div><!--end of container-->
+<script src="Javascript.js"></script>
+</body>
+</html>
